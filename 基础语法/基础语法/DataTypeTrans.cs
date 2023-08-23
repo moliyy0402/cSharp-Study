@@ -68,9 +68,53 @@ namespace 基础语法
             Console.WriteLine(stringValue);
 
 
+            object obj = 20;
+
+            byte b1 = Convert.ToByte(obj);
+            Console.WriteLine(b1);
+
             Console.ReadKey();
         }
 
+
+        /*
+         C# 类型转换方法
+C# 提供了下列内置的类型转换方法：
+        Convert类中
+序号	方法 & 描述
+1	ToBoolean
+如果可能的话，把类型转换为布尔型。
+2	ToByte
+把类型转换为字节类型。
+3	ToChar
+如果可能的话，把类型转换为单个 Unicode 字符类型。
+4	ToDateTime
+把类型（整数或字符串类型）转换为 日期-时间 结构。
+5	ToDecimal
+把浮点型或整数类型转换为十进制类型。
+6	ToDouble
+把类型转换为双精度浮点型。
+7	ToInt16
+把类型转换为 16 位整数类型。
+8	ToInt32
+把类型转换为 32 位整数类型。
+9	ToInt64
+把类型转换为 64 位整数类型。
+10	ToSbyte
+把类型转换为有符号字节类型。
+11	ToSingle
+把类型转换为小浮点数类型。
+12	ToString
+把类型转换为字符串类型。
+13	ToType
+把类型转换为指定类型。
+14	ToUInt16
+把类型转换为 16 位无符号整数类型。
+15	ToUInt32
+把类型转换为 32 位无符号整数类型。
+16	ToUInt64
+把类型转换为 64 位无符号整数类型。
+         */
 
     }
 }
