@@ -16,7 +16,11 @@ namespace 基础语法
 
             // DataTypeTrans.demo02();
 
-            Constant.demo01();
+            // Constant.demo01();
+
+            Opt.demo01();
+
+
         }
     }
 }
