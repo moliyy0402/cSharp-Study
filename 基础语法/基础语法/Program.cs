@@ -12,6 +12,10 @@ namespace 基础语法
         {
             Console.WriteLine("666");
 
+            Cat cat = new Cat();
+
+            cat.PrintInfo();
+
             Console.ReadKey();
         }
     }
