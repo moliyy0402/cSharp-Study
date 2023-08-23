@@ -14,7 +14,9 @@ namespace 基础语法
             // DataTypes.demo1();
             // DataTypes.demo2();
 
-            DataTypeTrans.demo02();
+            // DataTypeTrans.demo02();
+
+            Constant.demo01();
         }
     }
 }
