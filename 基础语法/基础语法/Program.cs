@@ -12,7 +12,9 @@ namespace 基础语法
         static void Main(string[] args)
         {
             // DataTypes.demo1();
-             DataTypes.demo2();
+            // DataTypes.demo2();
+
+            DataTypeTrans.demo02();
         }
     }
 }
