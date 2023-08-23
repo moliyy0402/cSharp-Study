@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 基础语法
+namespace 面向对象
 {
-    // gitthu token: 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
     internal class Program
     {
         static void Main(string[] args)
         {
-            DataTypes.demo1();
         }
     }
 }
