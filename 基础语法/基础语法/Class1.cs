@@ -15,5 +15,10 @@ namespace 基础语法
             Console.WriteLine("cat类的名字是：{0}，年龄是{1}",name,age);
         }
 
+        public Cat(string name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
     }
 }
