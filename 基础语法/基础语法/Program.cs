@@ -18,9 +18,12 @@ namespace 基础语法
 
             // Constant.demo01();
 
-            Opt.demo01();
+            // Opt.demo01();
 
-
+            // 循环.demo01();
+            循环.demo02();
+            循环.demo03();
+            循环.demo04();
         }
     }
 }
