@@ -21,9 +21,24 @@ namespace 基础语法
             // Opt.demo01();
 
             // 循环.demo01();
-            循环.demo02();
-            循环.demo03();
-            循环.demo04();
+            //循环.demo02();
+            //循环.demo03();
+            //循环.demo04();
+
+            //Encapsulation1 e1 =  new Encapsulation1();
+            //e1.length = 2.5;
+            //e1.width = 1.5;
+            //e1.Display();
+
+
+            Encapsulation2 e2 = new Encapsulation2();
+            e2.setVauleForKeys();
+
+            e2.Display();
+
+            Console.ReadKey();
+
+
         }
     }
 }
