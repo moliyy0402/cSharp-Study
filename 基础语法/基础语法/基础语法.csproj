@@ -47,6 +47,7 @@
     <Compile Include="DataTypes.cs" />
     <Compile Include="DataTypeTrans.cs" />
     <Compile Include="Encapsulation1.cs" />
+    <Compile Include="Func.cs" />
     <Compile Include="Opt.cs" />
     <Compile Include="ReservedKeywords.cs" />
     <Compile Include="Program.cs" />
