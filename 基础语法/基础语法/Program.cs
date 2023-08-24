@@ -11,7 +11,7 @@ namespace 基础语法
     {
         static void Main(string[] args)
         {
-            Nullable1.demo02();
+            Arrays.demo06(1,2,3,4,5,6);
         }
 
 
