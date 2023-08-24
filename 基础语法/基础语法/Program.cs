@@ -11,7 +11,8 @@ namespace 基础语法
     {
         static void Main(string[] args)
         {
-            Arrays.demo06(1,2,3,4,5,6);
+            enums1.demo01();
+
         }
 
 

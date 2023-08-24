@@ -10,6 +10,7 @@ namespace 面向对象
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(666);
         }
     }
 }
