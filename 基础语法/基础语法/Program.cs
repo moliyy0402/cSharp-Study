@@ -11,6 +11,12 @@ namespace 基础语法
     {
         static void Main(string[] args)
         {
+            Nullable1.demo02();
+        }
+
+
+        public static void jichu() {
+
             // DataTypes.demo1();
             // DataTypes.demo2();
 
@@ -61,26 +67,26 @@ namespace 基础语法
 
 
             /* 局部变量定义 */
-            int a = 100;
+            //int a = 100;
 
-            Console.WriteLine("在方法调用之前，a 的值： {0}", a);
+            //Console.WriteLine("在方法调用之前，a 的值： {0}", a);
 
             /* 调用函数来获取值 */
-            Func.getValue(out a);
+            //Func.getValue(out a);
 
-            Console.WriteLine("在方法调用之后，a 的值： {0}", a);
+            //Console.WriteLine("在方法调用之后，a 的值： {0}", a);
 
 
 
             /* 局部变量定义 */
-            int q, w;
+            //int q, w;
 
             /* 调用函数来获取值 */
-            Func.getValue(out q, out w);
+            //Func.getValue(out q, out w);
 
-            Console.WriteLine("在方法调用之后，q 的值： {0}", q);
-            Console.WriteLine("在方法调用之后，w 的值： {0}", w);
-            Console.ReadKey();
+            //Console.WriteLine("在方法调用之后，q 的值： {0}", q);
+            //Console.WriteLine("在方法调用之后，w 的值： {0}", w);
+            //Console.ReadKey();
         }
-    }
+     }
 }
